@@ -8,7 +8,9 @@ console.log(start)
 console.log(pause)
 
 
+
 start.addEventListener('click', () =>{
+    
     if(hook !==true){
       clearInterval(hook);
     }
@@ -17,6 +19,7 @@ start.addEventListener('click', () =>{
 
 pause.addEventListener('click', ()=>{
     clearInterval(hook);
+    
 });
 
 
@@ -24,10 +27,12 @@ reset.addEventListener('click', ()=>{
     clearInterval(hook);
     [millisecs, secs, min, hour] = [0,0,0,0];
     timeDis.innerHTML = '00:00:00:000';
+    
 });
 
 function displayTimer(){
     millisecs +=10;
+    timeDis.textContent = '00 00 00 000';
     if(millisecs == 1000){
         millisecs =0;
         secs ++;

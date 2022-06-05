@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Space+Mono&display=swap");
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+body {
+  background: #262b1b;
+  color: #ffff;
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 44px;
+  text-align: center;
+  transform: translate(0, 120%);
+  letter-spacing: 2mm;
+  background-image: url(./picks/Ellipse\ 1.svg);
+  background-repeat: no-repeat;
+}
+h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+  /* opacity: 0.2; */
+}
+
+.container {
+  background-color: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.92) 105.29%,
+    rgba(255, 255, 255, 0.92) 110.17%,
+    rgba(211, 131, 238, 0.735011) 115.91%,
+    rgba(160, 91, 219, 0.491721) 123.45%,
+    rgba(129, 38, 207, 0.211651) 132.14%,
+    rgba(176, 220, 56, 0) 138.71%
+  );
+  mix-blend-mode: overlay;
+  opacity: 0.7;
+  border-radius: 27px;
+  width: 100%;
+  /* z-index: 100; */
+  
+}
+
+.buttons {
+  padding: 20px;
+}
+.work {
+  color: #ffff;
+  font-size: 20px;
+  width: 138px;
+  padding: 10px;
+  height: 50px;
+  left: 286px;
+  top: 534px;
+  border: none;
+  background: rgba(193, 223, 31, 0.53);
+  border-radius: 15px;
+}
+.pause {
+  color: #ffff;
+  font-size: 20px;
+  width: 138px;
+  padding: 10px;
+  height: 50px;
+  left: 286px;
+  top: 534px;
+  border: none;
+  background: rgba(191, 58, 58, 0.63);
+  border-radius: 15px;
+}
+.reset{
+    color: #ffff;
+    font-size: 20px;
+    width: 138px;
+    padding: 10px;
+    height: 50px;
+    left: 286px;
+    top: 534px;
+    border: none;
+    background: rgba(44, 154, 164, 0.6);
+    border-radius: 15px;
+}
