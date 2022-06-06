@@ -14,6 +14,11 @@ body {
   letter-spacing: 2mm;
   background-image: url(./picks/Group\ 1\ \(3\).svg);
   background-repeat: no-repeat;
+  margin-top: 5%;
+  background-size:80%;
+  background-position-x: center;
+  background-position-y:0.5%;
+  
 }
 h1 {
   font-size: 50px;
