@@ -17,20 +17,19 @@ body {
   margin-top: 5%;
   background-size:80%;
   background-position-x: center;
-  background-position-y:0.5%;
+  background-position-y: 5px;
   
 }
 h1 {
   font-size: 50px;
-  padding-bottom: 20px;
-  /* opacity: 0.2; */ 
+  padding-bottom: 20px; 
   color: #ffff;
 }
 
 .container {
   background: linear-gradient(
     180deg,
-     rgba(255, 255, 255, 0.12) 100.29%, 
+     rgba(255, 255, 255, 0.06) 100.29%, 
     rgba(255, 255, 255, 0.62) 110.17%,
     rgba(211, 131, 238, 0.735011) 115.91%,
     rgba(160, 91, 219, 0.491721) 123.45%,
@@ -38,12 +37,10 @@ h1 {
     rgba(176, 220, 56, 0) 138.71%
   );
   mix-blend-mode: overlay;
-  opacity: 0.2;
   border-radius: 27px;
   padding: 50px;
   height:50%;
   width: 50%;
-  /* z-index: 100; */
   
 }
 
@@ -61,7 +58,7 @@ h1 {
   left: 286px;
   top: 534px;
   border: none;
-  background: rgba(193, 223, 31);
+  background: rgb(170, 196, 27);
   border-radius: 15px;
   cursor: pointer;
 }
