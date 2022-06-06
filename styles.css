@@ -5,42 +5,47 @@
 }
 
 body {
-  background: #262b1b;
+  background: #262B1B;
   color: #ffff;
   font-family: "Nanum Myeongjo", serif;
   font-size: 44px;
   text-align: center;
-  transform: translate(0, 120%);
+  transform: translate(0, 40%);
   letter-spacing: 2mm;
-  background-image: url(./picks/Ellipse\ 1.svg);
+  background-image: url(./picks/Group\ 1\ \(3\).svg);
   background-repeat: no-repeat;
 }
 h1 {
   font-size: 50px;
   padding-bottom: 20px;
-  /* opacity: 0.2; */
+  /* opacity: 0.2; */ 
+  color: #ffff;
 }
 
 .container {
-  background-color: linear-gradient(
+  background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.92) 105.29%,
-    rgba(255, 255, 255, 0.92) 110.17%,
+     rgba(255, 255, 255, 0.12) 100.29%, 
+    rgba(255, 255, 255, 0.62) 110.17%,
     rgba(211, 131, 238, 0.735011) 115.91%,
     rgba(160, 91, 219, 0.491721) 123.45%,
     rgba(129, 38, 207, 0.211651) 132.14%,
     rgba(176, 220, 56, 0) 138.71%
   );
   mix-blend-mode: overlay;
-  opacity: 0.7;
+  opacity: 0.2;
   border-radius: 27px;
-  width: 100%;
+  padding: 50px;
+  height:50%;
+  width: 50%;
   /* z-index: 100; */
   
 }
 
 .buttons {
   padding: 20px;
+  z-index: 10;
+  
 }
 .work {
   color: #ffff;
@@ -51,8 +56,9 @@ h1 {
   left: 286px;
   top: 534px;
   border: none;
-  background: rgba(193, 223, 31, 0.53);
+  background: rgba(193, 223, 31);
   border-radius: 15px;
+  cursor: pointer;
 }
 .pause {
   color: #ffff;
@@ -65,6 +71,7 @@ h1 {
   border: none;
   background: rgba(191, 58, 58, 0.63);
   border-radius: 15px;
+  cursor: pointer;
 }
 .reset{
     color: #ffff;
@@ -77,4 +84,11 @@ h1 {
     border: none;
     background: rgba(44, 154, 164, 0.6);
     border-radius: 15px;
+    cursor: pointer;
 }
+/* .svgContainer{
+    display: flex;
+} */
+/* .eclipseOne{
+    transform:translate(20%,50%)
+} */

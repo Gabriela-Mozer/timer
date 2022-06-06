@@ -1,4 +1,5 @@
 let [millisecs, secs, min, hour] = [0,0,0,0];
+millisecs =-10;
 let timeDis = document.getElementById('timerDisplay');
 let start = document.getElementById('work');
 let pause = document.getElementById('pause');
@@ -28,11 +29,12 @@ reset.addEventListener('click', ()=>{
     [millisecs, secs, min, hour] = [0,0,0,0];
     timeDis.innerHTML = '00:00:00:000';
     
+    
 });
 
 function displayTimer(){
     millisecs +=10;
-    timeDis.textContent = '00 00 00 000';
+    
     if(millisecs == 1000){
         millisecs =0;
         secs ++;
